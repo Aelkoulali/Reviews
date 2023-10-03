@@ -4,19 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reviews</title>
-    <!-- font-awesome -->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <!-- styles -->
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <section class="container">
-        <!-- title -->
+        <!-- Title -->
         <div class="title">
           <h2>Customer Reviews</h2>
           <div class="underline"></div>
         </div>
+        <!-- Review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="person-1.png" id="person-img" alt="" />
+          </div>
+          <h4 id="author">Malik Noor</h4>
+          <p id="job">Photograph</p>
+          <p id="info">
+            The staff was great.The receptionist were very helpfull and answered all our questions.
+            The room was clean and bright, and the room service was always on time.
+            Will be coming back !
+          </p>
+          <!-- Prev & Next Buttons-->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- Random Button -->
+          <button class="random-btn">surprise me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
