@@ -1,2 +1,2 @@
-# Guest Hotel reviews
+# Guest Hotel Reviews
 ## HTML, CSS & Javascript
