@@ -25,14 +25,24 @@ const reviews = [
       id: 4,
       name: 'Kelly Smith',
       job: 'Architect',
-      img: './images/person-3.png',
+      img: './images/person-4.png',
       text: 'Lovely hotel with a wonderful restaurant. Very friendly staff. Hotel is full of great art. Just a charming place.',
     },
     {
       id: 5,
       name: 'Patrick Jones',
       job: 'Data Entry Associate',
-      img: './images/person-4.png',
+      img: './images/person-5.png',
       text: 'Hotel exceeded my expectations was spotless the staff was amazing and the most comfortable bed I have ever slept in.',
     },
   ];
+  // select items
+  const img = document.getElementById('person-img');
+  const author = document.getElementById('author');
+  const job = document.getElementById('job');
+  const info = document.getElementById('info'); 
+
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+  const randomBtn = document.querySelector('.random-btn');
+  
