@@ -47,10 +47,10 @@ const reviews = [
   const nextBtn = document.querySelector('.next-btn');
   const randomBtn = document.querySelector('.random-btn');
 
-  // set starting item
+  // Set Starting Iitem
   let currentItem = 0;
 
-  // load initial item
+  // Load Initial Item
   window.addEventListener('DOMContentLoaded', function () {
   const item = reviews[currentItem];
   img.src = item.img;
@@ -59,7 +59,7 @@ const reviews = [
   info.textContent = item.text;
   });
 
-  // show person based on item
+  // Show Person Based On Item
   function showPerson(person) {
   const item = reviews[person];
   img.src = item.img;
