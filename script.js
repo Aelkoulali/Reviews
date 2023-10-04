@@ -36,6 +36,7 @@ const reviews = [
       text: 'Hotel exceeded my expectations was spotless the staff was amazing and the most comfortable bed I have ever slept in.',
     },
   ];
+
   // select items
   const img = document.getElementById('person-img');
   const author = document.getElementById('author');
@@ -45,4 +46,16 @@ const reviews = [
   const prevBtn = document.querySelector('.prev-btn');
   const nextBtn = document.querySelector('.next-btn');
   const randomBtn = document.querySelector('.random-btn');
+
+  // set starting item
+  let currentItem = 0;
+
+  // load initial item
+  window.addEventListener('DOMContentLoaded', function () {
+  const item = reviews[currentItem];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = item.job;
+  info.textContent = item.text;
+  });
   
