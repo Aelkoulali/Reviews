@@ -1,2 +1,5 @@
-# Guest Hotel Reviews
-## HTML, CSS & Javascript
+# 🗂️ Guest Hotel Reviews ✍🏻 ⭐️⭐️⭐️⭐️⭐️ 
+##  ➡️ Key Concepts :
+### ✅  addEventListener( )
+### ✅ Math.floor( )  
+### ✅ Math.random( )
