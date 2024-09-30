@@ -37,7 +37,7 @@ const reviews = [
     },
   ];
 
-  // select items
+  // Declare variables
   const img = document.getElementById('person-img');
   const author = document.getElementById('author');
   const job = document.getElementById('job');
@@ -47,7 +47,7 @@ const reviews = [
   const nextBtn = document.querySelector('.next-btn');
   const randomBtn = document.querySelector('.random-btn');
 
-  // Set Starting Iitem
+  // Set Starting Item
   let currentItem = 0;
 
   // Load Initial Item
@@ -68,7 +68,7 @@ const reviews = [
   info.textContent = item.text;
 }
 
-  // show next person
+  // Show next person
   nextBtn.addEventListener('click', function () {
   currentItem++;
   if (currentItem > reviews.length - 1) {
@@ -76,7 +76,7 @@ const reviews = [
   }
   showPerson(currentItem);
 });
-  // show prev person
+  // Show prev person
   prevBtn.addEventListener('click', function () {
   currentItem--;
   if (currentItem < 0) {
@@ -84,7 +84,7 @@ const reviews = [
   }
   showPerson(currentItem);
 });
-  // show random person
+  // Show random person
   randomBtn.addEventListener('click', function () {
   console.log('hello');
 
