@@ -18,4 +18,4 @@ The app uses Math.random() and Math.floor() to randomly pick a review and genera
     - user interaction using addEventListener()
 
 ## ▶️ How to Run
-1. Open `index.html` in your browser.
+- Open `index.html` in your browser.
